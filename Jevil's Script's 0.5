@@ -1,0 +1,209 @@
+local OrionLib = loadstring(game:HttpGet(('https://raw.githubusercontent.com/shlexware/Orion/main/source')))()
+local Window = OrionLib:MakeWindow({Name = "Jevil's Script's", HidePremium = false, SaveConfig = true, ConfigFolder = "Jevil's Script's"})
+OrionLib:MakeNotification({
+	Name = "Hey!",
+	Content = "Welcome To Jevil's Script's!",
+	Image = "rbxassetid://4483345998",
+	Time = 5
+})
+local Tab = Window:MakeTab({
+	Name = "Main",
+	Icon = "rbxassetid://4483345998",
+	PremiumOnly = false
+})
+Tab:AddButton({
+	Name = "Infiniteyield",
+	Callback = function()
+      loadstring(game:HttpGet('https://raw.githubusercontent.com/EdgeIY/infiniteyield/master/source'))()loadstring(game:HttpGet('https://raw.githubusercontent.com/EdgeIY/infiniteyield/master/source'))()
+      		print("executed.")
+  	end    
+})
+ Tab:AddButton({
+	Name = "Dark dex",
+	Callback = function()
+loadstring(game:HttpGet("https://raw.githubusercontent.com/JevilOhio/dark-dex-v4/main/Dark%20dex%20v4"))();
+      		print("executed")
+  	end    
+})
+Tab:AddButton({
+	Name = "NoClip",
+	Callback = function()
+loadstring(game:HttpGet("https://raw.githubusercontent.com/MaksBloxX/NoClipScript/main/NoClip%20Roblox", true))()
+      		print("executed")
+  	end    
+})
+Tab:AddButton({
+	Name = "Fly",
+	Callback = function()
+loadstring(game:HttpGet("https://raw.githubusercontent.com/MaksBloxX/NoClipScript/main/Fly%20V3", true))()
+      		print("executed")
+  	end    
+})
+Tab:AddButton({
+	Name = "Virtual keyboard",
+	Callback = function()
+loadstring(game:HttpGet(('https://raw.githubusercontent.com/manimcool21/Keyboard-FE/main/Protected%20(3).lua'),true))()
+      		print("executed")
+  	end    
+})
+local Tab = Window:MakeTab({
+	Name = "Doors",
+	Icon = "rbxassetid://4483345998",
+	PremiumOnly = false
+})
+Tab:AddButton({
+	Name = "Hardcore doors",
+	Callback = function()
+loadstring(game:HttpGet("https://pastebin.com/raw/e1rt2w6N"))();
+      		print("executed")
+  	end    
+})
+Tab:AddButton({
+	Name = "NerdDoors v2.5~",
+	Callback = function()
+loadstring(game:HttpGet("https://raw.githubusercontent.com/MrNeRD0/Doors-Hack/main/doorsdone.lua"))()
+      		print("executed")
+  	end    
+})
+Tab:AddButton({
+	Name = "Nerd - The rooms (doors)",
+	Callback = function()
+loadstring(game:HttpGet("https://raw.githubusercontent.com/MrNeRD0/Doors-Hack/main/doorsroomdone.lua"))()
+      		print("executed")
+  	end    
+})
+Tab:AddButton({
+	Name = "PoopDoors",
+	Callback = function()
+loadstring(game:HttpGet(("https://raw.githubusercontent.com/mstudio45/poopdoors_edited/main/poopdoors_edited.lua"),true))()
+      		print("executed")
+  	end    
+})
+Tab:AddButton({
+	Name = "custom vitamins",
+	Callback = function()
+getgenv().CustomVitamins = {
+    SpeedBoost = 7,
+    EffectDuration = 25
+}
+loadstring(game:HttpGet("https://pastebin.com/raw/qH9PEhfQ"))()
+      		print("executed")
+  	end    
+})
+Tab:AddButton({
+	Name = "Tablet/Scanner",
+	Callback = function()
+_G.UpdateStars = false -- stars disappear after picking up a book/breaker pole | false: a little lag
+_G.OnShop = true -- can buy on pre run shop
+_G.Price = 1000 -- tablet price on shop
+_G.Description = "" -- tablet description on shop
+
+loadstring(game:HttpGet('https://raw.githubusercontent.com/DeividComSono/Scripts/main/Scanner.lua'))()
+      		print("executed")
+  	end    
+})
+local Tab = Window:MakeTab({
+	Name = "Funky Friday",
+	Icon = "rbxassetid://4483345998",
+	PremiumOnly = false
+})
+Tab:AddButton({
+	Name = "Auto play",
+	Callback = function()
+loadstring(game:HttpGet("https://raw.githubusercontent.com/ShowerHead-FluxTeam/scripts/main/funky-friday-autoplay"))()
+      		print("executed")
+  	end    
+})
+Tab:AddButton({
+	Name = "Enable/Disable AutoPlay",
+	Callback = function()
+getgenv().keytoclick = "Delete"
+tool = Instance.new("Tool")
+tool.RequiresHandle = false
+tool.Name = keytoclick
+tool.Activated:connect(function()
+    local vim = game:service("VirtualInputManager")
+vim:SendKeyEvent(true, keytoclick, false, game)
+end)
+tool.Parent = game.Players.LocalPlayer.Backpack
+wait(0.2)
+local AkaliNotif = loadstring(game:HttpGet("https://raw.githubusercontent.com/Kinlei/Dynissimo/main/Scripts/AkaliNotif.lua"))();
+local Notify = AkaliNotif.Notify;
+Notify({})
+      		print("executed")
+  	end    
+})
+local Tab = Window:MakeTab({
+	Name = "Build a Boat for treasure",
+	Icon = "rbxassetid://4483345998",
+	PremiumOnly = false
+})
+    Tab:AddButton({
+	Name = "Auto farm gold etc.",
+	Callback = function()
+loadstring(game:HttpGet('https://raw.githubusercontent.com/XRoLLu/UWU/main/BUILD%20A%20BOAT%20FOR%20TREASURE.lua'))()
+      		print("executed")
+  	end    
+})
+Tab:AddButton({
+	Name = "Auto Build",
+	Callback = function()
+loadstring(game:HttpGet("https://raw.githubusercontent.com/max2007killer/auto-build-not-limit/main/autobuild.txt"))()
+      		print("executed")
+  	end    
+})
+local Tab = Window:MakeTab({
+	Name = "Blox fruits",
+	Icon = "rbxassetid://4483345998",
+	PremiumOnly = false
+})
+Tab:AddButton({
+	Name = "ZamexMobile",
+	Callback = function()
+loadstring(game:HttpGet('https://raw.githubusercontent.com/Sixnumz/ZamexMobile/main/Zamex_Mobile.lua'))()
+      		print("executed")
+  	end    
+})
+    Tab:AddButton({
+	Name = "BLCK Hub",
+	Callback = function()
+loadstring(game:HttpGet("https://raw.githubusercontent.com/1f0yt/community/main/BLCK"))()
+      		print("executed")
+  	end    
+})
+Tab:AddButton({
+	Name = "UraniumMobile",
+	Callback = function()
+loadstring(game:HttpGet("https://raw.githubusercontent.com/Augustzyzx/UraniumMobile/main/UraniumKak.lua"))()
+      		print("executed")
+  	end    
+})
+local Tab = Window:MakeTab({
+	Name = "Fruit Warrior",
+	Icon = "rbxassetid://4483345998",
+	PremiumOnly = false
+})
+Tab:AddButton({
+	Name = "Fruit Warrior",
+	Callback = function()
+_G.Key = "FREEKEY2023" -- key for now
+ 
+--- https://discord.gg/8gNrnWmgcb
+pcall(function()
+  loadstring(game:HttpGet("https://roflux.net/scripts/games/" .. tostring(game.PlaceId) .. ".lua"))()
+end)
+      		print("executed")
+  	end    
+})
+local Tab = Window:MakeTab({
+	Name = "Tower Of Hell",
+	Icon = "rbxassetid://4483345998",
+	PremiumOnly = false
+})
+Tab:AddButton({
+	Name = "TOH",
+	Callback = function()
+loadstring(game:HttpGet("https://raw.githubusercontent.com/dqvh/dqvh/main/SprinHub",true))()
+      		print("executed")
+  	end    
+})
